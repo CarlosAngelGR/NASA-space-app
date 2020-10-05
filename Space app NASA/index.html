@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinfonia Espacial</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <nav>
+            
+            
+
+
+        </nav>
+        <section class="textos-header">
+        <h1>Sinfonia espacial</h1>
+        <h2>Descubre la sinfonia de tu cielo</h2>
+    </section>
+    <div class="wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgba(0, 136, 255, 0.767);"></path></svg></div>
+    </header>
+    <main>
+        <section class="contenedor sobre-nosotros">
+            <h2 class="titulo">Descubre tu cielo</h2>
+            
+            <div class="contenedor-sobre-nosotros">
+                <img src="espacio1.jpg" alt="">
+                <div class="Contenido-textos">
+                    <h3><span></span></h3>
+                    <div class="clientes contenedor">
+                        <h2 class="titulo">Encuentra lo que hay arriba de ti</h2>
+                        <div class="contenido-texto-card">
+                            <h4 class="name"></h4>
+                            <p>Los seres humanos han estado mirando hacia el cielo en busca de respuestas desde el principio de los tiempos y los telescopios les han estado ayudando a obtener una mejor imagen cuando lo hacen durante cientos de años. Ahora tenemos telescopios terrestres y espaciales que pueden brindarnos terabytes y terabytes de datos que nos brindan información invaluable sobre la formación del universo, las estrellas, los planetas y mucho más.</p>
+                           
+                        </div>
+            
+                    </div>
+                    <form>
+            <section class= "informacion">
+                <div class= "informacion">
+                    <br />
+                     <br />
+                     <br />
+                     <p>Para los amantes de el espacio, que les gusta observar las maravillas de el cosmos</p>
+                     <p>y les gustaria saber que clase de objetos espaciale hay sobre nosotros y no cuentan con telescopio</p>
+                     <p> en esta pagina podran observar de las imagenes captadas por los telescoios y observar el espacio </p>
+                     <p>que esta encima de nosotros</p>
+
+                </div>
+                <div class="info2">
+                    <h2>Y aparte de eso cada objeto identificado es puede ser interpretado como una onda de sonido y al juntar todos los sonidos de tu imagen puedes oir la sinfonia de esa pequeña region de el espacio! </h2>
+                    <h2>Do= Planetas</h2>
+                    <h2>Re= Etrellas</h2>
+                    <h2>Mi= Cometas</h2>
+                    <h2>Fa= Agujeros Negros</h2>
+                    <h2>So= Ondas Gravitacionales</h2>
+                    <h2>La= Satelites</h2>
+                    <h2>Si= Galaxias</h2>
+                </div>
+
+            </section>
+         
+            
+        </form>
+
+                </div>
+            </div>
+
+        </section>
+        <section class="map">
+            <h2>Busca tus coordenadas</h2>
+            <div id="map"></div>
+<script src="script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap"></script>
+        </section>
+        <section class="contenedor entre-nosotros">
+        <h1>Escribe tus coordenadas</h1>
+            
+            <input type="text" id="Nombre" name="Nombre">
+            <br/>
+           <!-- <input  type="submit" id="Enviar" value="Enviar" name="Enviar" > comentario para activa el boton enviar-->
+            
+            <br />
+            <!--<A href=" https://skyview.gsfc.nasa.gov/current/cgi/titlepage.pl">Skyview</A><BR> leyenda para mandar a skyview -->
+            <span> Selecciona onda de visualizacion</span>
+            <select id="select" name="select">
+                <option>0408MHz</option>
+                <option>DSS</option>
+                <option>IRAS</option>
+            
+            </select>
+            <br />
+            <li><a href= "paginas/coordenadas.html">Enviar</a> </li> 
+        </section>
+        
+        
+           
+         
+        
+
+       
+
+        </div>
+    </main>
+       
+</body>
+</html>
